@@ -1,0 +1,19 @@
+name: EveryNoise
+
+channels:
+  - conda-forge
+  - fastai
+  
+dependencies:
+  - python>=3.7
+  - pandas
+  - jupyterlab
+  - nbdev
+  - lxml
+  - beautifulsoup4
+  - typer
+  - pip
+  
+  - pip:
+      - -e .
+      - ipypb
