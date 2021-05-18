@@ -1,0 +1,24 @@
+name: Update data
+
+on:
+  workflow_dispatch:
+  schedule:
+  - cron: "30 0 * * 1"
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      
+    - name: Set up Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: '3.x'
+    - name: Install dependencies
+      run: |
+        python -m pip install -e .
+        python -m energynoise.download
+      
+    - uses: stefanzweifel/git-auto-commit-action@v4 
