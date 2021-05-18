@@ -1,0 +1,76 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "genre-attributes",
+      "path": "genre_attrs.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "genre",
+            "type": "string",
+            "format": "default",
+            "title": "Genre",
+            "description": "The name of the genre, a mostly comprehensive subset of the full Spotify genre list"
+          },
+          {
+            "name": "x",
+            "type": "integer",
+            "format": "default",
+            "title": "X",
+            "description": "Low values of x denote heavier genres (e.g. metal) whilst higher values are for lighter genres (e.g. pop)"
+          },
+          {
+            "name": "y",
+            "type": "integer",
+            "format": "default",
+            "title": "Y",
+            "description": "Low values of y denote more organic genres (e.g. classical) whilst higher values are for more mechanical genres (e.g. techno)"
+          },
+          {
+            "name": "r",
+            "type": "integer",
+            "format": "default",
+            "title": "Red Channel"
+          },
+          {
+            "name": "g",
+            "type": "integer",
+            "format": "default",
+            "title": "Green Channel"
+          },
+          {
+            "name": "b",
+            "type": "integer",
+            "format": "default",
+            "title": "Blue Channel"
+          }
+        ]
+      }
+    }
+  ],
+  "keywords": [
+    "energynoise",
+    "spotify",
+    "music",
+    "genres"
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-SA-4.0",
+      "title": "Creative Commons Attribution Share-Alike 4.0",
+      "path": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Ayrton Bourn",
+      "role": "author"
+    }
+  ],
+  "description": "This dataset is downloaded from everynoise.com and expresses Spotify genres across 5 dimensions, primarily heavy/light and organic/mechanic. Glenn McDonald (Senior Software Engineer at Spotify) is the creator of EnergyNoise, this dataset has been derived from his work.",
+  "homepage": "https://github.com/AyrtonB/EveryNoise-Watch#readme",
+  "title": "Energy Noise",
+  "name": "energy-noise"
+}

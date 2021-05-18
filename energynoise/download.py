@@ -6,7 +6,6 @@ __all__ = ['get_every_noise_canvas', 'extract_canvas_height_width', 'extract_sty
 # Cell
 import pandas as pd
 import typer
-from tqdm import tqdm
 import textwrap
 import requests
 from bs4 import BeautifulSoup as bs
@@ -95,7 +94,7 @@ app = typer.Typer()
 
 # Cell
 @app.command()
-def download_genre_attrs(fp='genre_attrs.csv'):
+def download_genre_attrs(fp='data/genre_attrs.csv'):
     df_genre_attrs = get_df_genre_attrs()
     df_genre_attrs.to_csv(fp, index=False)
 
