@@ -1,5 +1,7 @@
 # EveryNoise-Watch
 
+[![goodtables.io](https://goodtables.io/badge/github/AyrtonB/EveryNoise-Watch.svg)](https://goodtables.io/github/AyrtonB/EveryNoise-Watch) [![Binder](https://notebooks.gesis.org/binder/badge_logo.svg)](https://notebooks.gesis.org/binder/v2/gh/AyrtonB/EveryNoise-Watch/HEAD)
+
 <br>
 
 ### Overview
@@ -27,7 +29,7 @@ python -m energynoise.download
 
 ### Dataset Usage
 
-The dataset can be directly downloaded as a csv, e.g. with:
+The dataset can be directly downloaded from this repository as a csv, e.g. with:
 
 ```python
 import pandas as pd
@@ -46,7 +48,7 @@ Below is an example of the first five columns in the resulting DataFrame
 
 <br>
 
-The raw csv dataset is accompanied by a json file detailing it's metadata. This has been created using the Frictionless Data Table Schema, with the two files forming a Frictionless Data Package. The dataset can be loaded into a DataFrame using the `datapackage` library.
+The raw csv dataset is accompanied by a json file detailing it's metadata. This has been created using the Frictionless Data Table Schema, with the two files forming a Frictionless Data Package. This packaged dataset can be loaded using the `datapackage` library.
 
 ```python
 # Imports
