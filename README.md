@@ -1,6 +1,6 @@
 # EveryNoise-Watch
 
-[![goodtables.io](https://goodtables.io/badge/github/AyrtonB/EveryNoise-Watch.svg)](https://goodtables.io/github/AyrtonB/EveryNoise-Watch) [![Binder](https://notebooks.gesis.org/binder/badge_logo.svg)](https://notebooks.gesis.org/binder/v2/gh/AyrtonB/EveryNoise-Watch/HEAD)
+[![goodtables.io](https://goodtables.io/badge/github/AyrtonB/EveryNoise-Watch.svg)](https://goodtables.io/github/AyrtonB/EveryNoise-Watch) [![Binder](https://notebooks.gesis.org/binder/badge_logo.svg)](https://notebooks.gesis.org/binder/v2/gh/AyrtonB/EveryNoise-Watch/main?urlpath=lab)
 
 <br>
 
