@@ -95,6 +95,7 @@ app = typer.Typer()
 # Cell
 @app.command()
 def download_genre_attrs(fp='data/genre_attrs.csv'):
+    # TODO if dir does not exist then create it
     df_genre_attrs = get_df_genre_attrs()
     df_genre_attrs.to_csv(fp, index=False)
 

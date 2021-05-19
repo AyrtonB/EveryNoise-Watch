@@ -6,11 +6,11 @@
 
 ### Overview
 
-[EveryNoise.com](https://everynoise.com/) is a website that expresses Spotify genres across 5 dimensions, primarily heavy/light and organic/mechanic. Glenn McDonald (Senior Software Engineer at Spotify) is the creator of EnergyNoise, the dataset contained in this repository has been derived from his work. You can find more information on how the genres are placed across these dimensions [here](https://everynoise.com/EverynoiseIntro.pdf).
+[EveryNoise.com](https://everynoise.com/) is a website that expresses Spotify genres across 5 dimensions, primarily heavy/light and organic/mechanic. Glenn McDonald (Senior Software Engineer at Spotify) is the creator of EveryNoise, the dataset contained in this repository has been derived from his work. You can find more information on how the genres are placed across these dimensions [here](https://everynoise.com/EverynoiseIntro.pdf).
 
 <br>
 
-The `energynoise` Python library can be installed using:
+The `everynoise` Python library can be installed using:
 
 ```bash
 pip install git+https://github.com/AyrtonB/EveryNoise-Watch
@@ -21,7 +21,7 @@ pip install git+https://github.com/AyrtonB/EveryNoise-Watch
 Once the library has been installed you can retrieve the latest dataset by running:
 
 ```bash
-python -m energynoise.download
+python -m everynoise.download
 ```
 
 <br>
@@ -70,6 +70,5 @@ Which also exposes the metadata in a machine-readable form, e.g.
 ```python
 dp.descriptor['description']
 
->>> 'This dataset is downloaded from everynoise.com and expresses Spotify genres across 5 dimensions, primarily heavy/light and organic/mechanic. Glenn McDonald (Senior Software Engineer at Spotify) is the creator of EnergyNoise, this dataset has been derived from his work.'
-
+>>> 'This dataset is downloaded from everynoise.com and expresses Spotify genres across 5 dimensions, primarily heavy/light and organic/mechanic. Glenn McDonald (Senior Software Engineer at Spotify) is the creator of EveryyNoise, this dataset has been derived from his work.'
 ```
