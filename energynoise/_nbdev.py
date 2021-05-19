@@ -2,16 +2,16 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"extract_canvas_height_width": "library-gen.ipynb",
-         "extract_style_elems": "library-gen.ipynb",
-         "genre_elem_to_name": "library-gen.ipynb",
-         "get_genre_xy": "library-gen.ipynb",
-         "hex_to_rgb": "library-gen.ipynb",
-         "extract_genre_attrs": "library-gen.ipynb",
-         "get_df_genre_attrs": "library-gen.ipynb",
-         "app": "library-gen.ipynb",
-         "download_genre_attrs": "library-gen.ipynb",
-         "get_every_noise_canvas": "library-gen.ipynb"}
+index = {"extract_canvas_height_width": "01-library-gen.ipynb",
+         "extract_style_elems": "01-library-gen.ipynb",
+         "genre_elem_to_name": "01-library-gen.ipynb",
+         "get_genre_xy": "01-library-gen.ipynb",
+         "hex_to_rgb": "01-library-gen.ipynb",
+         "extract_genre_attrs": "01-library-gen.ipynb",
+         "get_df_genre_attrs": "01-library-gen.ipynb",
+         "app": "01-library-gen.ipynb",
+         "download_genre_attrs": "01-library-gen.ipynb",
+         "get_every_noise_canvas": "01-library-gen.ipynb"}
 
 modules = ["core.py",
            "download.py"]

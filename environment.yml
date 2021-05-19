@@ -12,6 +12,7 @@ dependencies:
   - lxml
   - beautifulsoup4
   - typer
+  - datapackage
   - pip
   
   - pip:
