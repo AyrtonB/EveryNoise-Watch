@@ -4,6 +4,10 @@
     {
       "name": "genre-attributes",
       "path": "genre_attrs.csv",
+      "dialect": {                
+        "delimiter": ",",
+        "doubleQuote": true
+      },
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
