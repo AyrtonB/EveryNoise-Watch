@@ -6,7 +6,7 @@
 
 ### Overview
 
-[EveryNoise.com](https://everynoise.com/) is a website that expresses Spotify genres across 5 dimensions, primarily heavy/light and organic/mechanic. Glenn McDonald (Senior Software Engineer at Spotify) is the creator of EveryNoise, the dataset contained in this repository has been derived from his work. You can find more information on how the genres are placed across these dimensions [here](https://everynoise.com/EverynoiseIntro.pdf).
+[EveryNoise.com](https://everynoise.com/) is a website that expresses Spotify genres across 3 dimensions, primarily heavy/light and organic/mechanic, with a third 'undefined' colour dimension. Glenn McDonald (Senior Software Engineer at Spotify) is the creator of EveryNoise, the dataset contained in this repository has been derived from his work. You can find more information on how the genres are placed across these dimensions [here](https://everynoise.com/EverynoiseIntro.pdf).
 
 <br>
 

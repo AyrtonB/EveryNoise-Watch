@@ -79,7 +79,7 @@
             "role": "author"
         }
     ],
-    "description": "This dataset is downloaded from everynoise.com and expresses Spotify genres across 5 dimensions, primarily heavy/light and organic/mechanic. Glenn McDonald (Senior Software Engineer at Spotify) is the creator of EveryNoise, this dataset has been derived from his work.",
+    "description": "The Every Noise dataset expresses Spotify genres across 3 dimensions, primarily heavy/light and organic/mechanic, with a third 'undefined' colour dimension. Glenn McDonald (Senior Software Engineer at Spotify) is the creator of EveryNoise, the dataset contained in this repository has been derived from his work.",
     "homepage": "https://github.com/AyrtonB/EveryNoise-Watch#readme",
     "title": "Every Noise",
     "name": "every-noise"
