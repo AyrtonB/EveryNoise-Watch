@@ -32,22 +32,10 @@
             "description": "Low values of y denote more organic genres (e.g. classical) whilst higher values are for more mechanical genres (e.g. techno)"
           },
           {
-            "name": "r",
-            "type": "integer",
+            "name": "hex_colour",
+            "type": "nominal",
             "format": "default",
-            "title": "Red Channel"
-          },
-          {
-            "name": "g",
-            "type": "integer",
-            "format": "default",
-            "title": "Green Channel"
-          },
-          {
-            "name": "b",
-            "type": "integer",
-            "format": "default",
-            "title": "Blue Channel"
+            "title": "Colour"
           }
         ]
       }
