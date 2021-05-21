@@ -1,5 +1,4 @@
 {
-  "profile": "tabular-data-package",
   "resources": [
     {
       "name": "genre-attributes",
@@ -54,27 +53,45 @@
       }
     }
   ],
-  "keywords": [
-    "everynoise",
-    "spotify",
-    "music",
-    "genres"
-  ],
-  "licenses": [
-    {
-      "name": "CC-BY-SA-4.0",
-      "title": "Creative Commons Attribution Share-Alike 4.0",
-      "path": "https://creativecommons.org/licenses/by-sa/4.0/"
-    }
-  ],
-  "contributors": [
-    {
-      "title": "Ayrton Bourn",
-      "role": "author"
-    }
-  ],
-  "description": "This dataset is downloaded from everynoise.com and expresses Spotify genres across 5 dimensions, primarily heavy/light and organic/mechanic. Glenn McDonald (Senior Software Engineer at Spotify) is the creator of EveryNoise, this dataset has been derived from his work.",
-  "homepage": "https://github.com/AyrtonB/EveryNoise-Watch#readme",
-  "title": "Every Noise",
-  "name": "every-noise"
+    "views": [
+        {
+            "name": "genre-map",
+            "title": "Genre Map",
+            "resources": ["genre-attributes"],
+            "specType": "vega-lite",
+            "spec": {
+              "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+              "description": "A scatterplot showing the Spotify genre space",
+              "data": {"name": "genre-attributes"},
+              "mark": "point",
+              "encoding": {
+                "x": {"field": "x", "type": "quantitative"},
+                "y": {"field": "y", "type": "quantitative"}
+              }
+            }
+        }
+    ],
+    "keywords": [
+        "everynoise",
+        "spotify",
+        "music",
+        "genres"
+    ],
+    "licenses": [
+        {
+        "name": "CC-BY-SA-4.0",
+            "title": "Creative Commons Attribution Share-Alike 4.0",
+            "path": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+    ],
+    "contributors": [
+        {
+            "title": "Ayrton Bourn",
+            "role": "author"
+        }
+    ],
+    "description": "This dataset is downloaded from everynoise.com and expresses Spotify genres across 5 dimensions, primarily heavy/light and organic/mechanic. Glenn McDonald (Senior Software Engineer at Spotify) is the creator of EveryNoise, this dataset has been derived from his work.",
+    "homepage": "https://github.com/AyrtonB/EveryNoise-Watch#readme",
+    "title": "Every Noise",
+    "name": "every-noise"
 }

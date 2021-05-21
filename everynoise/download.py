@@ -41,7 +41,7 @@ genre_elem_to_name = lambda genre_elem: genre_elem.text.replace('» ', '')
 
 # Cell
 def get_genre_xy(genre_style_elems, canvas_width, canvas_height):
-    x = canvas_width - int(genre_style_elems['left'].replace('px', ''))
+    x = int(genre_style_elems['left'].replace('px', ''))
     y = canvas_height - int(genre_style_elems['top'].replace('px', ''))
 
     return x, y
@@ -68,6 +68,7 @@ def extract_genre_attrs(genre_elem, canvas_width, canvas_height):
     genre_style_elems = extract_style_elems(genre_elem)
 
     genre_attrs['genre'] = genre_elem_to_name(genre_elem)
+    genre_attrs['hex_colour'] = genre_style_elems['color']
     genre_attrs['x'], genre_attrs['y'] = get_genre_xy(genre_style_elems, canvas_width, canvas_height)
     genre_attrs['r'], genre_attrs['g'], genre_attrs['b'] = hex_to_rgb(genre_style_elems['color'])
 
