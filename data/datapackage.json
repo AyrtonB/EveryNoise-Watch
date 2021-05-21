@@ -48,14 +48,15 @@
             "resources": ["genre-attributes"],
             "specType": "vega-lite",
             "spec": {
-              "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-              "description": "A scatterplot showing the Spotify genre space",
-              "data": {"name": "genre-attributes"},
-              "mark": "point",
-              "encoding": {
-                "x": {"field": "x", "type": "quantitative"},
-                "y": {"field": "y", "type": "quantitative"}
-              }
+                "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+                "description": "A scatterplot showing the Spotify genre space",
+                "data": {"name": "genre-attributes"},
+                "mark": "point",
+                "encoding": {
+                    "x": {"field": "x", "type": "quantitative"},
+                    "y": {"field": "y", "type": "quantitative"},
+                    "tooltip": {"field": "genre", "type": "nominal"}
+                }
             }
         }
     ],
