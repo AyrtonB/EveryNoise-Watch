@@ -33,7 +33,7 @@
           },
           {
             "name": "hex_colour",
-            "type": "nominal",
+            "type": "string",
             "format": "default",
             "title": "Colour"
           }
